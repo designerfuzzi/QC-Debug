@@ -6,7 +6,7 @@ Symptoms in system log: Unknown class 'SCNView', using 'NSView' instead. Encount
 Talk: This bug is living in Quartz.framework, happens because SCNView class changed but Mesh Importer got no attention refreshing its ViewController to this changes.
 Seems there is also a bug while observing KVO output of that SceneView and using -[NSKeyedUnarchiver decodeObjectForKey:]: cannot decode object of class (SCNView)
 
-Workaround/solution: native Mesh Importer is wrapped in a macro patch, its inputs and outputs are published so available to work but does not reach its viewController to trigger the buggy code.
+Workaround/solution: native Mesh Importer is wrapped in a macro patch, its inputs and outputs are published so available to work but does not reach its viewController to trigger the buggy code. That way you can use Inspector when editing QC patches which make use of Mesh Importer.
 
 Destination:
 Copy 'Mesh Importer (debug).qtz' into this folder ~/Library/Graphics/Quartz Composer Patches/

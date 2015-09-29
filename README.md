@@ -3,7 +3,7 @@ Repo to fix OSX Quartz Composer bugs
 
 It seems quartz composer gets attention in development again,
 so it is important to have a propper collection of known bugs
-and until they may fanish away to have workarounds. 
+and until they may vanish away to have some workaround. 
 
 
 you can report issues
@@ -26,5 +26,5 @@ For reporting origami bugs or if you want report errors who interfere by third p
 
 
 **Structure**
-for obvious reason, it makes sens to have not only workarounds to come around known buggy behaviour, it is a lot easier to have propper testcases to proof a bug is still existing or hopefully gone in development of QC.
+for obvious reason, it makes sens to have propper testcases to proof a bug is still existing or hopefully gone in development of QC.
 If you are able to show error points please try to create test cases (qtz files) where bugs can be proofen in isolated form.
